@@ -30,7 +30,7 @@
 		 $path2 = "image/".$side_image;
 		 $created_at=date('Y-m-d');
 
-
+  
 		 if($type=='image/jpg' || $type=='image/jpeg' || $type=='image/png' || $type=='image/gif'){
 		    if($size<=7000000){
          $insert_qry = "INSERT INTO add_owner(owner_name,owner_mobile,owner_email,owner_vehicle_no,owner_vehicle_rc_no,owner_vehicle_brand,owner_vehicle_name,owner_vehicle_color,driver_id,front_image,back_image,side_image,created_at) VALUES('$owner_name','$owner_mobile','$owner_email','$owner_vehicle_no','$owner_vehicle_rc_no','$owner_vehicle_brand','$owner_vehicle_name','$owner_vehicle_color','$driver_id','$front_image','$back_image', '$side_image','$created_at')";
