@@ -5,4 +5,4 @@
             if ($delete) {
                           header("Location: manage-owner.php");
                         }   
-?>
+?> 
